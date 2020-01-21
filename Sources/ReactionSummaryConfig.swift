@@ -41,6 +41,9 @@ public final class ReactionSummaryConfig: Configurable {
 
   /// The marging between the icon and border.
   public var iconMarging: CGFloat = 2
+ 
+  /// The border width of the icons.
+  public var iconBorderWidth: CGFloat = 2
 
   /// The font of the text.
   public var font: UIFont! = UIFont(name: "HelveticaNeue", size: 12)
