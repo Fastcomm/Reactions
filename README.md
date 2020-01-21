@@ -1,3 +1,9 @@
+### This fork adds the following:
+
+- ReactionSummaryConfig.iconBorderWidth variable
+
+<p><br></p>
+
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/798235/19212170/781ebb64-8d4c-11e6-8285-94e74a356d53.png" alt="Reactions">
 </p>
@@ -138,12 +144,13 @@ Like the other components you can setting it using a `ReactionSummaryConfig` obj
 
 ```swift
 summary.config = ReactionSummaryConfig {
-  $0.spacing      = 8
-  $0.iconMarging  = 2
-  $0.font         = UIFont(name: "HelveticaNeue", size: 12)
-  $0.textColor    = UIColor(red: 0.47, green: 0.47, blue: 0.47, alpha: 1)
-  $0.alignment    = .left
-  $0.isAggregated = true
+  $0.spacing          = 8
+  $0.iconMarging      = 2
+  $0.iconBorderWidth  = 2
+  $0.font             = UIFont(name: "HelveticaNeue", size: 12)
+  $0.textColor        = UIColor(red: 0.47, green: 0.47, blue: 0.47, alpha: 1)
+  $0.alignment        = .left
+  $0.isAggregated     = true
 }
 ```
 
