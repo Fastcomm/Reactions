@@ -44,6 +44,9 @@ public final class ReactionSummaryConfig: Configurable {
  
   /// The border width of the icons.
   public var iconBorderWidth: CGFloat = 2
+    
+  /// The border colour of the icons.
+  public var iconBorderColour: UIColor = .white
 
   /// The font of the text.
   public var font: UIFont! = UIFont(name: "HelveticaNeue", size: 12)
